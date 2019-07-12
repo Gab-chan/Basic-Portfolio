@@ -1,10 +1,17 @@
+body {
+    width: 1500px;
+    height: 600px;
+    clear: both;
+}
+
+
 header {
     background-color: #4aaaa5;
     color: #ffffff;
     float: left;
     clear: both;
     position: relative;
-    left: 20%;
+    left: 35%;
     
 }
 
@@ -19,22 +26,26 @@ ul {
 
 #li1 {
     float:left;
-    
-    margin-right: 20px;
+    position: relative;
+    right: 200%;
     
 }
 
 
 #li2 {
     float:left;
+    position:relative;
+    right: 180%;
     
-    margin-right: 20px;
+    
 }
 
 
 #li3 {
     
     float:left;
+    position: relative;
+    right: 160%;
     
 
 }
@@ -49,6 +60,9 @@ div {
     clear: both;
     background-color: #dddddd;
     height: 700px;
+    width: 960px;
+    position: relative;
+    left: 30%;
     
     
 }
@@ -63,6 +77,7 @@ footer {
     border-top-width: 10px;
     border-top-style: solid;
     padding: 20px;
+    width: 1855px;
 }
 
 .copy {
@@ -88,7 +103,7 @@ p{
 h2 {
     color: #4aaaa5;
     position: relative;
-    left: 20%;
+    left: 12%;
     top: 2%;
     
 }
